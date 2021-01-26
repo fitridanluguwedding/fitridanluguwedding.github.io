@@ -234,7 +234,7 @@ i {
 /* Shrink navbar on scroll  */
 
 nav .navbar-brand img {
-    max-height: 130px;
+    max-height: 60px;
 }
 nav .navbar-toggle {
     margin: 13px 15px 13px 0;
@@ -2038,6 +2038,36 @@ button.list-group-item:focus,
 button.list-group-item:hover {
     color: #fff;
     text-decoration: none;
+}
+
+.event-tanggal-wrapper *{
+    font-size: 1.8rem;
+    text-align:center
+}
+.valign {
+    font-size: 0;
+  }
+  
+  .valign > [class*="col"] {
+    display: inline-block;
+    float: none;
+    font-size: 14px;
+    font-size: 1rem;
+    vertical-align: middle;
+  }
+.side-border{
+    border-left: 1px solid ;
+    border-right: 1px solid ;
+}
+
+.back-to-top i{
+    color : #fff !important;
+}
+section#intro{
+    padding-top:125px;
+}
+section#save-date{
+    padding-top:50px;
 }
 /*===========================
   Media Queries
