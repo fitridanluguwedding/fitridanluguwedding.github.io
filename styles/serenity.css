@@ -159,6 +159,9 @@ nav.navbar.shrink,
 footer 
 {background-color: #423629;}
 
+nav.navbar.navbar-custom{
+    background-color: #423629;
+}
 .form-control,
 select.form-control,
 input[type="checkbox"],
